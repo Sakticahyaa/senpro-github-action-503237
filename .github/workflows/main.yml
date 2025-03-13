@@ -58,6 +58,7 @@ jobs:
                 git restore .;
                 git pull origin main;
                 echo "Install Package dan Build Project";
+                npm install node@latest;
                 npm install;
                 npm run build;
               }
